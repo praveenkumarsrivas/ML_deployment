@@ -21,4 +21,4 @@ result = model.score(X_test,y_test)
 print(result)
 
 # saving the model
-joblib.dump(model,'joblib_model.pkl')
+joblib.dump(model, '../deployment/joblib_model.pkl')
